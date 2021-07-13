@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/LogicGateReact/static/css/main.ab7689fd.chunk.css",
+    "main.js": "/LogicGateReact/static/js/main.96c46c83.chunk.js",
+    "main.js.map": "/LogicGateReact/static/js/main.96c46c83.chunk.js.map",
+    "runtime-main.js": "/LogicGateReact/static/js/runtime-main.d0afbc10.js",
+    "runtime-main.js.map": "/LogicGateReact/static/js/runtime-main.d0afbc10.js.map",
+    "static/js/2.6fb456cd.chunk.js": "/LogicGateReact/static/js/2.6fb456cd.chunk.js",
+    "static/js/2.6fb456cd.chunk.js.map": "/LogicGateReact/static/js/2.6fb456cd.chunk.js.map",
+    "static/js/3.f9709c3e.chunk.js": "/LogicGateReact/static/js/3.f9709c3e.chunk.js",
+    "static/js/3.f9709c3e.chunk.js.map": "/LogicGateReact/static/js/3.f9709c3e.chunk.js.map",
+    "index.html": "/LogicGateReact/index.html",
+    "static/css/main.ab7689fd.chunk.css.map": "/LogicGateReact/static/css/main.ab7689fd.chunk.css.map",
+    "static/js/2.6fb456cd.chunk.js.LICENSE.txt": "/LogicGateReact/static/js/2.6fb456cd.chunk.js.LICENSE.txt",
+    "static/media/AND.f9521d3c.png": "/LogicGateReact/static/media/AND.f9521d3c.png",
+    "static/media/NOT.ba9e0a9f.png": "/LogicGateReact/static/media/NOT.ba9e0a9f.png",
+    "static/media/OR.3548fe98.png": "/LogicGateReact/static/media/OR.3548fe98.png",
+    "static/media/XOR.4fc00b80.png": "/LogicGateReact/static/media/XOR.4fc00b80.png",
+    "static/media/index.css": "/LogicGateReact/static/media/logicback.98e9386e.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d0afbc10.js",
+    "static/js/2.6fb456cd.chunk.js",
+    "static/css/main.ab7689fd.chunk.css",
+    "static/js/main.96c46c83.chunk.js"
+  ]
+}
