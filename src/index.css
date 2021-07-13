@@ -11,3 +11,187 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  background-image: url('logicback.png');
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;}
+
+  .body {
+  background-image: url('logicback.png');
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;}
+
+  .house {
+  width: 500px;
+  height: 520px;
+  background-color: grey;
+  margin: 0 auto;
+  top: 5px;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 0.7vh;
+  border-style: solid;}
+
+  .and {
+  width: 100px;
+  height: 60px;
+  background-color: darkgrey;
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow: 1px 1px black;}
+
+  .and:hover {
+  background-color:lightgrey;}
+
+  .or {
+  width: 100px;
+  height: 60px;
+  background-color: darkgrey;
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow: 1px 1px black;}
+
+  .or:hover {
+  background-color:lightgrey;}
+
+  .xor {
+  width: 100px;
+  height: 60px;
+  background-color: darkgrey;
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow: 1px 1px black;}
+
+  .xor:hover {
+  background-color:lightgrey;}
+
+  .not {
+  width: 100px;
+  height: 60px;
+  background-color: darkgrey;
+  border-radius: 5px;
+  margin-left: 10px;
+  box-shadow: 1px 1px black;}
+
+  .not:hover {
+  background-color:lightgrey;}
+
+  .result {
+  width: 450px;
+  height: 110px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin-left: 25px;
+  margin-right: 25px;
+  box-shadow: 1px 1px black;}
+
+  .one {
+  width: 50px;
+  height: 50px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  float:right;
+  top: 10px;
+  margin-right: 10px;
+  box-shadow: 1px 1px black;}
+
+  .one:hover {
+  background-color:lightgrey;}
+
+  .zero {
+  width: 50px;
+  height: 50px;
+  background-color: darkgrey;
+  border-radius: 50%;
+  float:right;
+  top: 10px;
+  margin-right: 10px;
+  box-shadow: 1px 1px black;}
+
+  .zero:hover {
+  background-color:lightgrey;}
+
+  .submit {
+  width: 80px;
+  height: 45px;
+  background-color: maroon;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+  border-color: black;
+  border-width: 0.7vh;
+  border-style: solid;
+  float:right;
+  margin-top: 2%}
+
+  .submit:hover {
+  background-color:darkred;}
+
+  .title{
+  width: 350px;
+  height: 40px;
+  background-color: grey;
+  margin: 0 auto;
+  top: 10px;
+  border-radius: 5px;
+  border-color: black;
+  border-width: 0.7vh;
+  border-style: solid;}
+
+  .abox{
+  width: 150px;
+  height: 70px;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin-left: 2%;
+  }
+
+  .clear{
+  width: 80px;
+  height: 45px;
+  background-color: green;
+  border-radius: 5px;
+  box-shadow: 1px 1px black;
+  border-color: black;
+  border-width: 0.7vh;
+  border-style: solid;
+  float: left;
+  margin-top: 2%}
+  .clear:hover {
+  background-color:darkgreen;}
+  .holdbox{
+  width: 500px;
+  height: 110px;}
+
+.Title{
+  color:white;
+}
+
+.Created{
+  color: white; 
+  margin-left:80px; 
+  text-shadow: 1px 1px black;
+}
+
+.Numbers{
+  color: white; 
+  margin-left:20px; 
+  text-shadow: 1px 1px black;
+}
+
+.Gates{
+  color: white;
+  text-shadow: 1px 1px black;
+  margin-left: 10px;
+}
+
+.RResult{
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+.ResultBox{
+  color:lightgrey;
+}
