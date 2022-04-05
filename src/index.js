@@ -30,19 +30,19 @@ function submit(){
   if (gate == "AND"){
     var n = binary.includes('0');
     if (n == true){
-      document.getElementById('result').innerHTML += "<br><br> Outcome: 0/False"
+      document.getElementById('result').innerHTML += "<br><br> Outcome: 0/False <br><br>"
     }
     else{
-      document.getElementById('result').innerHTML += "<br><br> Outcome: 1/True"
+      document.getElementById('result').innerHTML += "<br><br> Outcome: 1/True <br><br>"
     }
   }
   else if (gate == 'OR'){
     var n = binary.includes('1');
     if (n == true){
-      document.getElementById('result').innerHTML += "<br><br> Outcome: 1/True"
+      document.getElementById('result').innerHTML += "<br><br> Outcome: 1/True <br><br>"
     }
     else{
-      document.getElementById('result').innerHTML += "<br><br> Outcome: 0/False"
+      document.getElementById('result').innerHTML += "<br><br> Outcome: 0/False <br><br>"
     }
   }
   else if (gate == 'XOR'){
@@ -59,10 +59,10 @@ function submit(){
         y += 1
       }
     if (one == 1 || one%2 == 1){
-      document.getElementById('result').innerHTML += "<br><br> Outcome: 1/True"
+      document.getElementById('result').innerHTML += "<br><br> Outcome: 1/True <br><br>"
     }
     else{
-      document.getElementById('result').innerHTML += "<br><br> Outcome: 0/False"
+      document.getElementById('result').innerHTML += "<br><br> Outcome: 0/False <br><br>"
     }
   }
   else if (gate == 'NOT'){
@@ -71,10 +71,10 @@ function submit(){
       alert("NOT gates cannot take more than one input")
     }
     else if (n == true){
-      document.getElementById('result').innerHTML += "<br><br> Outcome: 0/False"
+      document.getElementById('result').innerHTML += "<br><br> Outcome: 0/False <br><br>"
     }
     else if (n == false){
-      document.getElementById('result').innerHTML += "<br><br> Outcome: 1/True"
+      document.getElementById('result').innerHTML += "<br><br> Outcome: 1/True <br><br>"
     }
   }
   else {
@@ -127,6 +127,7 @@ class Game extends React.Component {
                 <img src={NOT} width='80' height='40' />
               </p>
             </div>
+            <br />
 						<div class="result">      
               <p class="RResult">RESULT:</p>
               <div class="abox" id ="result"><p class="ResultBox"></p></div>
